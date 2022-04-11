@@ -1,0 +1,25 @@
+
+.info {
+  display: grid;
+  place-items: center;
+}
+
+.wrapper {
+  width: 400px;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+}

@@ -1,0 +1,29 @@
+
+.navigation_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+}
+
+.navigation_container .nav-items {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  place-items: center;
+}
+
+.navigation_container .nav-items .item {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.navigation_container .nav-items .item:hover {
+  background-color: rgb(42, 37, 37);
+}
+
+.app_content {
+  padding: 20px;
+}
